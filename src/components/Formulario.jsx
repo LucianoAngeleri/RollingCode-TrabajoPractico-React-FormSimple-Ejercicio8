@@ -17,7 +17,6 @@ const Formulario = () => {
         setDni(dni)
         setEmail(email)
         
-
         setNombre("")
         setApellido("")
         setDni("")
@@ -26,15 +25,15 @@ const Formulario = () => {
     return (
         <Form className="p-5 shadow-lg rounded-5 text-bg-secondary" onSubmit={handleSubmit}>
             <TituloFormulario></TituloFormulario>
-            <Row sm={2}>
-                <Col>
+            <Row>
+                <Col sm={12} md={6}>
                     <Form.Group className="mb-4" controlId="fromNombre">
                         <Form.Label>Nombre *</Form.Label>
                         <Form.Control onChange={(e) => setNombre(e.target.value)}
                   value={nombre} type="text" required placeholder="Ingrese su nombre" maxLength="60" minLength="3"></Form.Control>
                     </Form.Group> 
                 </Col>
-                <Col>
+                <Col sm={12} md={6}>
                     <Form.Group className="mb-4" controlId="fromApellido">
                         <Form.Label>Apellido *</Form.Label>
                         <Form.Control onChange={(e) => setApellido(e.target.value)}
