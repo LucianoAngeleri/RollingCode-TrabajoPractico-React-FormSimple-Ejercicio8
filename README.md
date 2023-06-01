@@ -59,3 +59,5 @@ El formulario consta de los siguientes campos:
 Al presionar el botón "Enviar", se validará que todos los campos estén completos. Si todos los campos están completos, se mostrará un mensaje de alerta con el texto "Datos enviados". En caso contrario, se mostrará un mensaje de alerta con el texto "Debe completar todos los campos".
 
 ***Nota:** los datos del formulario se guardan en el Local Storage.*
+
+***Nota:** el formulario se valida por HTML pero no contiene el atributo `required`, esto es asi para probar la funcionalidad de las ventanas.*

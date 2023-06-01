@@ -83,8 +83,7 @@ const Formulario = () => {
           type="text"
           placeholder="Ingrese su DNI"
           maxLength="8"
-          pattern="[0-9]{7,8}"
-          required></Form.Control>
+          pattern="[0-9]{7,8}"></Form.Control>
       </Form.Group>
       <Form.Group className="mb-4" controlId="fromEmail">
         <Form.Label>Correo electrónico *</Form.Label>
