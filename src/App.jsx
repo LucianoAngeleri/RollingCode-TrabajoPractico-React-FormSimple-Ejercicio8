@@ -14,6 +14,11 @@ function App() {
     <Container className="py-3">
       <Formulario></Formulario>
     </Container>
+    <Container fluid className="text-center text-bg-dark py-4 mt-5">
+      <footer>
+        <p>&copy; Todos los derechos reservados.</p>
+      </footer>
+    </Container>
     </>
   )
 }
